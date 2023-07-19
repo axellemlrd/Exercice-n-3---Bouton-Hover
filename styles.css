@@ -6,11 +6,35 @@
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
   border-radius: 100px;
+  border-color: black;
   border: solid;
+  transition: ease 0.5s;
 }
 
 .mon-bouton:hover {
-  background-color: rgb(1, 233, 241)
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-color: black;
+}
+
+.mon-bouton-deux {
+  margin-top: 100px;
+  padding: 20px 40px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  border: solid;
+  border-color: black;
+  transition: 0.5s ease;
+  color: rgb(0, 0, 0);
+}
+
+.mon-bouton-deux:hover {
+  background-color: rgb(0, 0, 0);
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  color: white;
 }
